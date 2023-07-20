@@ -16,7 +16,7 @@ This App is a Python application that allows you to chat with multiple PDF docum
 Please note that the app will only respond to questions related to the loaded PDFs.
 
 ## How Does it work 
-====================
+--------------------
 
 ![MultiPDF Chat App Diagram](./docs/PDF-LangChain.jpg)
 
@@ -33,7 +33,7 @@ The application follows these steps to provide responses to your questions:
 5. Response Generation: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
 
 ## Dependencies and Installation
-===================================
+----------------------------------
 To install the MultiPDF Chat App, please follow these steps:
 
 1. Clone the repository to your local machine.
@@ -46,7 +46,7 @@ To install the MultiPDF Chat App, please follow these steps:
 3. Obtain an API key from OpenAI and add it to the `.env` file in the project directory.
 
 ## Usage
-==========
+-----------
 To use the MultiPDF Chat App, follow these steps:
 
 1. Ensure that you have installed the required dependencies and added the OpenAI API key to the `.env` file.
