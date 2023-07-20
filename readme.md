@@ -1,7 +1,7 @@
 
 
 # Multiple PDF Chat Question and Answering App
-=================================================
+----------------------------------------------
 Author: Santosh Kumar Bammidi
 
 https://github.com/santoshbammidi07/querry_multiple_docs_using_langchains_llms.git
