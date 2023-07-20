@@ -21,15 +21,15 @@ Please note that the app will only respond to questions related to the loaded PD
 
 The application follows these steps to provide responses to your questions:
 
-1. Load PDF: The app reads multiple PDF documents and extracts their text content.
+1. **Load PDF**: The app reads multiple PDF documents and extracts their text content.
 
-2. Text Chunking: The extracted text is divided into smaller chunks that can be processed effectively.
+2. **Text Chunking**: The extracted text is divided into smaller chunks that can be processed effectively.
 
-3. Embeddingd using Language Model: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.
+3.**Embeddingd using Language Model**: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.
 
-4. Similarity Matching: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
+4. **Similarity Matching**: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
 
-5. Response Generation: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
+5. **Response Generation**: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
 
 ## Dependencies and Installation
 ----------------------------------
