@@ -60,7 +60,6 @@ To use the MultiPDF Chat App, follow these steps:
 
 3. The application will launch in your default web browser, displaying the user interface.
 
-4. Load multiple PDF documents into the app by following the provided instructions.
+4. Load multiple PDF documents into the app by clicking on browse.
 
-5. Ask questions in natural language about the loaded PDFs using the chat interface.
-
+5. Ask questions in natural language regarding the content present in the uploaded PDFs using the chat interface.
