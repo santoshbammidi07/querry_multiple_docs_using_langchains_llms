@@ -25,7 +25,6 @@ The application follows these steps to provide responses to your questions:
 1. **Load PDF**: The app reads multiple PDF documents and extracts their text content.
 
 2. **Text Chunking**: The extracted text is divided into smaller chunks that can be processed effectively.
-
 3. **Embeddingd using Language Model**: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.
 
 4. **Similarity Matching**: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
