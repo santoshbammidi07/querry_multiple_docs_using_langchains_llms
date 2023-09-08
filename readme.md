@@ -29,7 +29,7 @@ The application follows these steps to provide responses to your questions:
 
 4. **Similarity Matching**: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
 
-5. **Response Generation**: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
+5. **Response Generation**: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs..
 
 ## Dependencies and Installation
 ----------------------------------
