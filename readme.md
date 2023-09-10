@@ -61,4 +61,4 @@ To use the MultiPDF Chat App, follow these steps:
 
 5. Ask questions in natural language regarding the content present in the uploaded PDFs using the chat interface
 
-6. ..
+6. .
