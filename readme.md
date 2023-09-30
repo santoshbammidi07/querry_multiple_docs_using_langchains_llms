@@ -20,7 +20,7 @@ Please note that the app will only respond to questions related to the loaded PD
 
 ![MultiPDF Chat App Diagram](./docs/PDF-LangChain.jpg)
 
-The application follows these steps to provide responses to your questions:
+The application follows these steps to provide responses to your questions::
 
 1. **Load PDF**: The app reads multiple PDF documents and extracts their text content.
 
