@@ -1,5 +1,5 @@
 # Multiple PDF Chat Question and Answering App
-----------------------------------------------
+---------------------------------------------
 
 ## Retrieval Augmentation Generation with LLMs ( Generative AI - Document Retrieval and Question Answering).
 
