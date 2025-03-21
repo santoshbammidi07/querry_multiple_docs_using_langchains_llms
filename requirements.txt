@@ -11,3 +11,18 @@ faiss-cpu==1.7.4
 # uncomment to use instructor embeddings
 # InstructorEmbedding==1.0.1
 # sentence-transformers==2.2.2
+
+
+
+
+streamlit
+python-dotenv
+pymupdf  # For PDF text extraction
+python-pptx  # For PPTX text extraction
+pandas  # For Excel file handling
+openpyxl  # Required for reading Excel files
+faiss-cpu  # Vector store for LangChain
+langchain
+mistralai  # For Mistral OCR
+pycountry  # For language metadata
+pydantic  # For structured OCR output
