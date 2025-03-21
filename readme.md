@@ -60,3 +60,27 @@ To use the MultiPDF Chat App, follow these steps:
 4. Load multiple PDF documents into the app by clicking on browse.
 
 5. Ask questions in natural language regarding the content present in the uploaded PDFs using the chat interface.
+
+
+
+
+
+
+from mistralai import DocumentURLChunk, ImageURLChunk, TextChunk
+import json
+
+uploaded_file = client.files.upload(
+    file={
+        "file_name": pdf_file.stem,
+        "content": pdf_file.read_bytes(),
+    },
+    purpose="ocr",
+)
+
+signed_url = client.files.get_signed_url(file_id=uploaded_file.id, expiry=1)
+
+pdf_response = client.ocr.process(document=DocumentURLChunk(document_url=signed_url.url), model="mistral-ocr-latest", include_image_base64=True)
+
+response_dict = json.loads(pdf_response.json())
+json_string = json.dumps(response_dict, indent=4)
+print(json_string)
